@@ -60,7 +60,7 @@ To add content, copy an entry in `main` or `side` in `data/quest-pool.json`. Mai
 
 The **QUIT** button attempts to close the tab. Browsers may block scripts from closing tabs that were opened manually; if so, use **Ctrl+W** to close it yourself.
 
-##AI chat history pdf
+## AI chat history pdf
 [Click here to view the PDF](AI-prompts-links.pdf)
 
 

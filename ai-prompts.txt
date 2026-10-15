@@ -1,0 +1,191 @@
+Fading colors
+
+Prompts of Claud ai for game designing and ideation
+* i have an assignment in which i have to teach player color theory through my game, 
+what my idea is to make a singleplayer game inspired by among us, in which we will have a map where will get clues from different parts of map and through those clues we will accomplish certain tasks. the difference is from those clues i will try to teach my player what is color theory , we will give them small lessons and whatever they learn from the clues they will have to implement them in their tasks to progress through the game. i wont be just making a guessing game that you can afford to do a tsk wrong, rather by doing a task wrong you will be punished in some way so that you game progression becomes more difficult. by completing all of them you will gain some kind of title depending on how you played the game.
+what are your thoughts on this
+
+* i was thinking about the timing thing, beause i dont think making it multiplayer or co-op would be a very feasible option for this
+
+* yes, but diffeent rooms would have different colours and each rooms colour will be fading at different speed, hwat do u say
+
+* sure lets consider these, but the fading will speed up wheen the tasks goes wrong
+
+* or what we can do correct answer wont slow down the fading but we can maybe put something like a side quest, which is not necessary to complete the goal but if you complete it you can 
+slow down the fading of a room of yoour choice
+
+* i like the pause idea, fading will stop for a limited amount, side quest failiure wont lead to a punishment.
+another thing i would like to do is side quest will be in every room. lets say there are 3 rooms A,B,C. room A AND b ARE FINE but C is not. that means the concepts/task for room C is not clear but the player has understood the concepts of the other 2. so the player can do the side quests of any of the other 2 rooms to stop the fading of room C. side quests will only allow to stop fading of the rooms excluding itself/ the rooms who's main quests are already completed
+
+* rooms will be usable after tasks completion.
+completed rooms will stop fading
+when the player is learning and doing tasks all the fadings will stop
+side quest will be 1 time thing
+
+* if the player completes any of the 2 rooms tasks, he will win but will not earn a good title for himself
+to earn a good title he will have to complete all the rooms, and he will also get a elite title if he completes all the main quests+side quests
+
+* ok i like the idea of room fading during the side quests. rest of your points are obvious.
+and yes the fully faded room will be locked
+or what we can do is instead of locking it we will only give access to the side quest to help witht eh other room.
+what are ur thouhts on this
+
+* yes, the lessons will be still accessable and i will tell the player what went wrong with the main quest
+
+* sure, make a fina; detailed draft and then we will discuss more
+
+* okay now, as this an assignment in which we are allowed to use ai as much as we want we are also going to be marked on bases of our prompts to give me a detailed work flow to build this game along with the free to use tools and ai that i can use to build this game under a week with keep limits of tokens in mind also u need to help me with the prompts as well
+
+* right now make me a workflow in the sequence with all the tools and ai that i can use mentioned in it for best output
+
+* okay now, as this an assignment in which we are allowed to use ai as much as we want we are also going to be marked on bases of our prompts to give me a detailed work flow to build this game along with the free to use tools and ai that i can use to build this game under a week with keep limits of tokens in mind also u need to help me with the prompts as well
+
+* right now make me a workflow in the sequence with all the tools and ai that i can use mentioned in it for best output
+
+* just tell me honestly, will this game be intereesting enough to keep people hooked
+
+* i want to demploy it on web
+
+* make a step by step guide on what to do step by step as i don't know anything
+
+* as u already know the idea of our game tell us all the file names that we will be needing to create along with what would be in those files doc etc like a code files image files art files make it like so that i can just paste it in my ai so it can get the idea and start making the game according to our needs we will examine the game then do iterations make a full doc explaining the ai to do what we want it do to and it will instantly going to give us a demo finished model of a game that we can work our way up from
+
+* the game should be web based most imp
+include all the details of the game from the pdf u created
+
+* tell me the best ai options i can use and switch between if my creadit limit runs out as well
+
+* can i convert this game into 2.5d if i provide u with the map and the character art that will change the map and the character movement
+
+* also we need to add more quest so every time a player plays the game they have a new exp rather than doing the same task these new task will be randamozied all the quest needs to be on random places as well
+also we need to change the few games mechanics as well like adding some new components etc instead of having different time for different rooms we can keep a single timer and make the map size larger and as per that time it will fade on to grey scale
+
+* don't start the work just answer
+
+* i'd say
+3 main quest 3 side quest in a single game( having a big pool of quest in the backend for randamization)
+map->large on one screen->time consumptions
+quest hidden throught camaoflage in the map colors
+
+* our most imp part this game is time so lets work on that we will keep things simple
+
+* replace the charater from a square to a more moving charater with animation to it add some little animations in the map as well small small details etc make a map own your own which suits the best and ad the camoflage part as well give me a demo of all the iterantions for the same
+
+* now i want u to create me a pdf
+i want u to create a set of instruction which will consist of hints question and answers to those question for each round of game and i want u to create a pool of it so if i feed it into the game it can randomly select the combination in the game so the player playing the game multiple times shouldn't have to worry about learning the same thing again and again also make the hint and question language as easy as u can as this game will be played by a large range of age group and considering they don't know color theory we need to teach them
+
+* the set of question should directly connect to the exact hints for that quest it should be like that game is asking question of analogous color and hints are of complementary color
+
+* we have total 6 quest 3 main quest and 3 side quest for each main quest there are 2 hints and for each side quest there is one hint keep this in mind total 9 hints
+Prompts of Chat-GPT ai for game art
+
+* im making a map for my 2d game. this is the basic layout. there are 3 rooms A,b,c and a lobby.the center boxes in the rooms is where thee main quest of the map will take place, and the boxes with S.T in it are where the side quests will happen. the black boxes in the lobby is where the clues for quests will be. clues will be a little hidden with the map furniture. game is 2d and the visuals will be pixelated like stardew valley. enhance the map and add some non interactive details in it. all 3 rooms will have different color schemes and the room color will fade with time. give me a enhaced version
+
+* make clues spread across all rooms, there will be total 9 clues, and instead of just black box , make something else, something relevant with map . also can you make this in a underwater house theme
+
+* give me some ideas on what thing can we do the tasks in. like a table or a machine or something else, but it should be related to the underwater theme
+
+* i am keeping things simple for now, so keep a pearl table in all rooms for the main tasks, the side tasks can be done on the table
+
+* generate simple logos for main quest, side quest and clues with which the player will interact with. decide urself for the quest but for clues just keep a normal notebook page
+
+* they are good but remove the watery effect, just keep it simple. and find something different for main task
+
+* for main task, just keep the pearl
+
+* in the walk animation only left leg is moving up to walk, there is no right leg movement, same with the hand movement
+
+* convert the color scheme YCP to RGB. and i want you to convert this into a game meny screen with just play and quit option 
+
+* will this resolution work on any screen?
+
+* the game is mainly for pc. will work on web so make the resolution accordingly
+
+
+Prompts of Chat-GPT ai for game creation and demo
+
+* this is a handoff and now i will give u the prompts
+
+* can i convert this game into 2.5d if i provide u with the map and the character art that will change the map and the character movement
+also we need to add more quest so every time a player plays the game they have a new exp rather than doing the same task these new task will be randamozied all the quest needs to be on random places as well
+ also we need to change the few games mechanics as well like adding some new components etc instead of having different time for different rooms we can keep a single timer and make the map size larger and as per that time it will fade on to grey scale
+don't start the work just answer
+i'd say
+ 3 main quest 3 side quest in a single game( having a big pool of quest in the backend for randamization)
+ map->large on one screen->time consumptions
+ quest hidden throught camaoflage in the map colors
+our most imp part this game is time so lets work on that we will keep things simple
+replace the charater from a square to a more moving charater with animation to it add some little animations in the map as well small small details etc make a map own your own which suits the best and ad the camoflage part as well give me a demo of all the iterantions for the same
+
+* this map is perfect now i need u to make the user do the task as follows
+the hints for each task in the game are scattered away in map and in order to unlock the quest u need to find all the hints in the demo there were two hints for each main task and 1 hint for side quest set
+make the user do the task in order to make them learn the color theory 
+make a side bar where all the task will going to get listed as the player finds the hints to them
+
+* this is perfect but all the side bar and quest solving window should be side the game also the quest part should be in different rooms not  on the random ground the question questions are okay nut asking only one question is not good the quest should be a bit long and when u discover a hint u it should consist of info of some quest how it needs to be solve that should appear on screen rather than in the chat it should be a brief of some color theory question 
+make me a demo for this
+
+* give me the game files for the web in a zip folder as i gave u earlier
+
+* the game should be a single window there is no need to have these side bars i need it to be like among us hud all the interaction part and brief clue shimmer are part of game and need 
+not have seprate game screen
+
+* set the hit boxes to hall and rooms only the player is not allowed to go out this area 
+scale the map accordingly as as it should be big and make the game view dyanamic as it should be able to adapt to all pc screens on web it should not be just in a box but on complete web window 
+the main task should appear on the pearl table in the center of each room and side quest are mentioned in the image with S.T the quest
+
+* do this
+1. make color fading timer seprate for all room and have bar for each room on top of the screen as a part of hud.
+2. make a different icon for hints, side quest, main quest i'm giving images for to make them standout in the rooms and make them glow 
+3. remove the quest bar on the left side of the hud permanently
+4. make every quest glow to make them standout in rooms
+5. instead of hint appearing on the side on the quest bar as it is being removed, every time the player opens the hint show it on a hovering window on the screen so the player can read the complete hint 
+6. every time player is doing a side task of one room stop the timer for other rooms
+7. if the main task is done wrong increase the fading of all rooms by 0.25x
+8. if player complete a side task succesfuly of any room they will get and option of pausing time(in a hover window will appear) for any one room for 12 sec. 
+9. player have to read the hint when they are present near the hint they can't carry it with them and move around
+first image is of the character replace the character with that
+they logo for main task should exactly be placed on the pearl of the pearl table
+
+* do this
+1. fading and timer should stop after main task completion of that room , if the main task of that room has failed then that room will completely faded and its timer will be removed meaning that room can't be fixed now
+2. character animation needs to be fixed. set it to old animation only
+3. the animations in the background should be more intensified and should have even more animations more bubbles bigger bubbles more fishes big fishes more plant movement animated plants and elements
+4. the song in the background is quiet dim it should be a bit more intense increase its volume a little that player can hear it while playing
+
+
+* now i want u to create a home page which will be the main page of the game it will consist of start game and quit game buttons with a big logo at the center and below that those buttons with a translucent background showing the little animations of the our map 
+when the player will click the start game button a flying hover window will appear with all the instructions and the controls of the game, instructions as follow: 
+1. Don't let the color of the rooms fade  
+2. Read the clues spread across the map to solve the quests 
+3. Do the main quest in each room. 
+4. Failing the main quest will lead to time penalty 
+5. Do the side quest for some advantages(optional) 
+remove the hud at the bottom as it has no use 
+optimize the game in a way that when the window opens the tab will be made full screen on the web and when the quiet button is pressed the tab will close as well, also when the player is playing the game the mouse cursor should be removed and only the main controls should work 
+when ever the player interacts with the hint there is no need to click mark note read as we open the note it should automatically mark it read and we can open and close the hint with e key only. 
+1. as the player completes all main quest the game should end. 
+2. if a player wants to complete side quest they have to complete it before completing the last main task, after completing the last main task the game will end and no extra time would be given. 
+3. after completing all main quest there will be no extra time given to complete side quest and the screen will switch to game end screen and scores will be told  
+ending of the game: 
+the ending of the game will have 4 different endings: 
+1. no or one room is saved(lose) 
+2. 2 rooms are saved(2 main quest completed) 
+3. 3 rooms are saved(3 main quest completed) 
+4. 3 rooms are saved(3 main quest along with 3 side quest completed) 
+each ending will result in different screen for the game end part we will add some memes etc for each ending  
+don't make the end screens right now but only add the main functions to it i'll give u all the memes videos etc to apply on the end screen then only we will work on it 
+i'm giving u the home screen image which has all the things that we need the main logo name of the game and buttons u just have to take the image set how it should look on the main screen it should cover the complete screen then animate the buttons add functions to them etc give some small animation to the logo and the name of the game as well
+
+* do this
+1. fading and timer should stop after main task completion of that room , if the main task of that room has failed then that room will completely faded and its timer will be removed meaning that room can't be fixed now
+2. character animation needs to be fixed. set it to old animation only
+3. the animations in the background should be more intensified and should have even more animations more bubbles bigger bubbles more fishes big fishes more plant movement animated plants and elements
+4. the song in the background is quiet dim it should be a bit more intense increase its volume a little that player can hear it while playing
+
+* i want u to create a set of instruction which will consist of hints question and answers to those question for each round of game and i want u to create a pool of it so if i feed it into the game it can randomly select the combination in the game so the player playing the game multiple times shouldn't have to worry about learning the same thing again and again also make the hint and question language as easy as u can as this game will be played by a large range of age group and considering they don't know color theory we need to teach them  
+the set of question should directly connect to the exact hints for that quest it should be like that game is asking question of analogous color and hints are of complementary color 
+we have total 6 quest 3 main quest and 3 side quest for each main quest there are 2 hints and for each side quest there is one hint keep this in mind total 9 hints
+also the answers should be randamized right now all the answers are option A which is wrong they should be randamized 
+also drop the full screen part make the game normally no need to convert it to full screen
+

@@ -1,0 +1,1434 @@
+{
+  "schemaVersion": 1,
+  "title": "Fading Colors Question Pool",
+  "language": "Beginner-friendly English",
+  "roundRules": {
+    "mainQuestsPerRun": 3,
+    "sideQuestsPerRun": 3,
+    "hintsPerMainQuest": 2,
+    "hintsPerSideQuest": 1,
+    "totalHintsPerRun": 9,
+    "stagesPerQuest": 3,
+    "answerOptionCount": 3,
+    "answerOptionsRandomizedEachRun": true
+  },
+  "instructions": [
+    "Do not let the rooms lose their color.",
+    "Read the clues around the map. Clues teach you what you need for that same quest.",
+    "Complete the main quest in each room.",
+    "A wrong main-quest answer loses that room and makes the other active rooms fade faster.",
+    "Side quests are optional. Complete them before the final main quest to earn a time-pause reward."
+  ],
+  "main": [
+    {
+      "name": "Paint Mixer",
+      "concept": "Mixing paint colors",
+      "clues": [
+        {
+          "title": "Three paint colors",
+          "text": "In a simple artist's color wheel, red, yellow, and blue are the main paint colors. They are called primary colors."
+        },
+        {
+          "title": "Mixing paint",
+          "text": "Red + yellow makes orange. Yellow + blue makes green. Blue + red makes purple. These are simple rules for paint; screen light works differently."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which three colors are the traditional paint primaries?",
+          "options": [
+            "Red, yellow, and blue",
+            "Red, green, and blue",
+            "Orange, green, and purple"
+          ],
+          "answer": "Red, yellow, and blue",
+          "feedback": "Red, yellow, and blue are the traditional primary colors for paint."
+        },
+        {
+          "question": "What color do red and yellow paint make?",
+          "options": [
+            "Orange",
+            "Green",
+            "Purple"
+          ],
+          "answer": "Orange",
+          "feedback": "Red mixed with yellow makes orange in the simple paint model."
+        },
+        {
+          "question": "What color do yellow and blue paint make?",
+          "options": [
+            "Green",
+            "Orange",
+            "Purple"
+          ],
+          "answer": "Green",
+          "feedback": "Yellow mixed with blue makes green in the simple paint model."
+        }
+      ]
+    },
+    {
+      "name": "Opposite Partners",
+      "concept": "Complementary colors",
+      "clues": [
+        {
+          "title": "Colors across the wheel",
+          "text": "Complementary colors are across from each other on a color wheel. On a traditional artist's wheel, blue is across from orange, and red is across from green."
+        },
+        {
+          "title": "Strong color pairs",
+          "text": "Opposite colors can stand out strongly beside each other. Try using one as the main color and the other for a small highlight."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is opposite blue on the traditional artist's wheel?",
+          "options": [
+            "Orange",
+            "Green",
+            "Blue-green"
+          ],
+          "answer": "Orange",
+          "feedback": "Orange sits across from blue on the traditional artist's color wheel."
+        },
+        {
+          "question": "Which color is opposite red on the traditional artist's wheel?",
+          "options": [
+            "Green",
+            "Yellow",
+            "Orange-red"
+          ],
+          "answer": "Green",
+          "feedback": "Green is opposite red on the traditional artist's wheel."
+        },
+        {
+          "question": "How can you use opposite colors without making a design too loud?",
+          "options": [
+            "Use one most and the other as a small accent",
+            "Use both everywhere in equal amounts",
+            "Make every object a different color"
+          ],
+          "answer": "Use one most and the other as a small accent",
+          "feedback": "One main color plus a smaller opposite-color accent is often easier to look at."
+        }
+      ]
+    },
+    {
+      "name": "Color Neighbors",
+      "concept": "Analogous colors",
+      "clues": [
+        {
+          "title": "Neighbors on the wheel",
+          "text": "Analogous colors sit next to each other on the color wheel. Blue, blue-green, and green are an example."
+        },
+        {
+          "title": "A calm color group",
+          "text": "Neighboring colors often feel like they belong together. Pick one to be the main color and use the others to support it."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which set uses neighboring colors?",
+          "options": [
+            "Blue, blue-green, and green",
+            "Blue, orange, and red",
+            "Yellow, purple, and blue"
+          ],
+          "answer": "Blue, blue-green, and green",
+          "feedback": "Blue, blue-green, and green sit next to each other on the wheel."
+        },
+        {
+          "question": "What does analogous mean in color theory?",
+          "options": [
+            "Colors next to each other on the wheel",
+            "Colors directly opposite each other",
+            "Colors that have no color in them"
+          ],
+          "answer": "Colors next to each other on the wheel",
+          "feedback": "Analogous colors are neighbors on the color wheel."
+        },
+        {
+          "question": "A design uses blue and green. Which color would fit as a nearby helper?",
+          "options": [
+            "Blue-green",
+            "Orange",
+            "Red"
+          ],
+          "answer": "Blue-green",
+          "feedback": "Blue-green sits between blue and green, so it fits the neighboring-color group."
+        }
+      ]
+    },
+    {
+      "name": "Warm and Cool",
+      "concept": "Warm and cool colors",
+      "clues": [
+        {
+          "title": "Warm colors",
+          "text": "Red, orange, and yellow are often called warm colors. They can remind people of fire, sunlight, or a warm sunset."
+        },
+        {
+          "title": "Cool colors",
+          "text": "Blue, blue-green, and many purples are often called cool colors. They can remind people of water, shade, or ice. These are feelings, not real temperatures."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which group is usually called warm?",
+          "options": [
+            "Red, orange, and yellow",
+            "Blue, cyan, and blue-green",
+            "Gray, black, and white only"
+          ],
+          "answer": "Red, orange, and yellow",
+          "feedback": "Red, orange, and yellow are commonly described as warm colors."
+        },
+        {
+          "question": "Which color would help an icy scene feel cooler?",
+          "options": [
+            "Blue",
+            "Orange",
+            "Golden yellow"
+          ],
+          "answer": "Blue",
+          "feedback": "Blue is often used to suggest coolness."
+        },
+        {
+          "question": "Are warm and cool colors about the actual temperature of paint?",
+          "options": [
+            "No, they describe the feeling a color can give",
+            "Yes, warm paint is physically hot",
+            "Yes, cool paint freezes"
+          ],
+          "answer": "No, they describe the feeling a color can give",
+          "feedback": "Warm and cool are names for how colors can feel to us."
+        }
+      ]
+    },
+    {
+      "name": "Color Detective",
+      "concept": "Hue, saturation, and value",
+      "clues": [
+        {
+          "title": "Name, strength, and light",
+          "text": "Hue is the color family, like red or blue. Saturation tells how vivid or grayish a color looks. Value tells how light or dark it is."
+        },
+        {
+          "title": "Change one thing",
+          "text": "A blue can stay blue but become softer by lowering saturation. It can also stay blue but become lighter by raising its value."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which word means the color family, like red or blue?",
+          "options": [
+            "Hue",
+            "Value",
+            "Saturation"
+          ],
+          "answer": "Hue",
+          "feedback": "Hue names the color family."
+        },
+        {
+          "question": "A blue looks less vivid and more gray. What changed?",
+          "options": [
+            "Its saturation went down",
+            "Its hue must have become yellow",
+            "Its value must be zero"
+          ],
+          "answer": "Its saturation went down",
+          "feedback": "Lower saturation makes a color look less vivid."
+        },
+        {
+          "question": "Which property tells how light or dark a color is?",
+          "options": [
+            "Value",
+            "Hue",
+            "Saturation"
+          ],
+          "answer": "Value",
+          "feedback": "Value describes lightness and darkness."
+        }
+      ]
+    },
+    {
+      "name": "Light and Dark",
+      "concept": "Value contrast",
+      "clues": [
+        {
+          "title": "Value means light or dark",
+          "text": "Value tells how light or dark a color looks. Pale yellow has a high, light value. Deep navy has a low, dark value."
+        },
+        {
+          "title": "Make things easy to see",
+          "text": "Strong value contrast means a light area sits beside a dark area. It can help words, shapes, and objects stand out."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What does value describe?",
+          "options": [
+            "How light or dark a color looks",
+            "The color's name only",
+            "How many colors are in a box"
+          ],
+          "answer": "How light or dark a color looks",
+          "feedback": "Value is the lightness or darkness of a color."
+        },
+        {
+          "question": "Which pair has the strongest light-dark contrast?",
+          "options": [
+            "White and black",
+            "Two similar mid-grays",
+            "Two pale yellows"
+          ],
+          "answer": "White and black",
+          "feedback": "White and black are far apart in value."
+        },
+        {
+          "question": "Dark words on a pale sign are useful because they have…",
+          "options": [
+            "Clear value contrast",
+            "No color relationship",
+            "The same value"
+          ],
+          "answer": "Clear value contrast",
+          "feedback": "A big light-dark difference makes words easier to see."
+        }
+      ]
+    },
+    {
+      "name": "Tint and Shade",
+      "concept": "Tints and shades",
+      "clues": [
+        {
+          "title": "Make a tint",
+          "text": "A tint is made by adding white to a color. Red plus white makes a lighter pink tint."
+        },
+        {
+          "title": "Make a shade",
+          "text": "A shade is made by adding black to a color. Blue plus black makes a darker blue shade."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What can you add to red to make a pink tint?",
+          "options": [
+            "White",
+            "Black",
+            "Green"
+          ],
+          "answer": "White",
+          "feedback": "Adding white makes a tint lighter."
+        },
+        {
+          "question": "What can you add to blue to make a darker shade?",
+          "options": [
+            "Black",
+            "White",
+            "Yellow"
+          ],
+          "answer": "Black",
+          "feedback": "Adding black makes a shade darker."
+        },
+        {
+          "question": "Which one is a tint of green?",
+          "options": [
+            "Light green made with white",
+            "Dark green made with black",
+            "Red mixed with blue"
+          ],
+          "answer": "Light green made with white",
+          "feedback": "A tint is a color made lighter with white."
+        }
+      ]
+    },
+    {
+      "name": "Screen Colors",
+      "concept": "RGB screen light",
+      "clues": [
+        {
+          "title": "Screens use light",
+          "text": "Phone, TV, and computer screens make colors with red, green, and blue light. This system is called RGB."
+        },
+        {
+          "title": "Light adds together",
+          "text": "In the RGB light system, red light plus green light makes yellow. Red, green, and blue light together can make white on a screen."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color system do screens use to mix light?",
+          "options": [
+            "RGB: red, green, and blue",
+            "RYB: red, yellow, and blue",
+            "Only black and white"
+          ],
+          "answer": "RGB: red, green, and blue",
+          "feedback": "Screens use red, green, and blue light: RGB."
+        },
+        {
+          "question": "In RGB light, red light plus green light makes…",
+          "options": [
+            "Yellow",
+            "Purple",
+            "Brown"
+          ],
+          "answer": "Yellow",
+          "feedback": "Red and green light together look yellow in the RGB system."
+        },
+        {
+          "question": "What can red, green, and blue light together make on a screen?",
+          "options": [
+            "White",
+            "Black paint",
+            "Orange paint"
+          ],
+          "answer": "White",
+          "feedback": "Adding red, green, and blue light at full strength can make white."
+        }
+      ]
+    },
+    {
+      "name": "One-Color World",
+      "concept": "Monochromatic palettes",
+      "clues": [
+        {
+          "title": "One color family",
+          "text": "A monochromatic palette uses one hue, such as blue, with different light and dark versions of that color."
+        },
+        {
+          "title": "Keep it interesting",
+          "text": "A one-color design can still have variety. Try pale blue, medium blue, and deep blue so shapes do not all look the same."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What is a monochromatic palette?",
+          "options": [
+            "One hue shown in different lightness or darkness",
+            "Only colors opposite on the wheel",
+            "Every color in the rainbow at once"
+          ],
+          "answer": "One hue shown in different lightness or darkness",
+          "feedback": "Monochromatic means using one hue with different values or strengths."
+        },
+        {
+          "question": "Which group is monochromatic?",
+          "options": [
+            "Pale blue, blue, and dark blue",
+            "Blue, orange, and yellow",
+            "Red, green, and purple"
+          ],
+          "answer": "Pale blue, blue, and dark blue",
+          "feedback": "All three examples use the blue hue in different versions."
+        },
+        {
+          "question": "How can a one-color design show different objects?",
+          "options": [
+            "Use lighter and darker versions of the hue",
+            "Make every part exactly the same",
+            "Remove all differences"
+          ],
+          "answer": "Use lighter and darker versions of the hue",
+          "feedback": "Different light and dark versions help objects stand apart."
+        }
+      ]
+    },
+    {
+      "name": "Plan the Palette",
+      "concept": "Color palettes",
+      "clues": [
+        {
+          "title": "A palette is a plan",
+          "text": "A color palette is a group of colors chosen to work together in a picture, room, game, or poster."
+        },
+        {
+          "title": "Choose with a reason",
+          "text": "A good palette fits what you want to show. A few chosen colors can feel clearer than many unrelated colors."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What is a color palette?",
+          "options": [
+            "A group of colors chosen to work together",
+            "A kind of timer",
+            "A list of character names"
+          ],
+          "answer": "A group of colors chosen to work together",
+          "feedback": "A palette is a planned group of colors."
+        },
+        {
+          "question": "What is a good reason to choose colors?",
+          "options": [
+            "They fit the mood or purpose",
+            "Use as many colors as possible",
+            "Pick colors with no plan every time"
+          ],
+          "answer": "They fit the mood or purpose",
+          "feedback": "The job or feeling of a design can guide its palette."
+        },
+        {
+          "question": "A poster feels messy because every object has a different bright color. What may help?",
+          "options": [
+            "Use a smaller, planned group of colors",
+            "Add even more bright colors",
+            "Make every word a different font color"
+          ],
+          "answer": "Use a smaller, planned group of colors",
+          "feedback": "A smaller planned palette can make a design feel clearer."
+        }
+      ]
+    },
+    {
+      "name": "Secondary Color Workshop",
+      "concept": "Secondary paint colors",
+      "clues": [
+        {
+          "title": "Mix two primary paints",
+          "text": "In the simple red-yellow-blue paint model, mixing two primary colors makes a secondary color."
+        },
+        {
+          "title": "Remember the three mixes",
+          "text": "Red + yellow makes orange. Yellow + blue makes green. Blue + red makes purple."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is made by mixing red and yellow paint?",
+          "options": [
+            "Orange",
+            "Green",
+            "Blue"
+          ],
+          "answer": "Orange",
+          "feedback": "Red and yellow make orange in the simple paint model."
+        },
+        {
+          "question": "Which color is made by mixing blue and yellow paint?",
+          "options": [
+            "Green",
+            "Purple",
+            "Red"
+          ],
+          "answer": "Green",
+          "feedback": "Blue and yellow make green."
+        },
+        {
+          "question": "Which color is made by mixing blue and red paint?",
+          "options": [
+            "Purple",
+            "Yellow",
+            "Green"
+          ],
+          "answer": "Purple",
+          "feedback": "Blue and red make purple in the simple paint model."
+        }
+      ]
+    },
+    {
+      "name": "Find the Focus",
+      "concept": "Color contrast and focus",
+      "clues": [
+        {
+          "title": "Help one thing stand out",
+          "text": "A focal point is the part of a picture you notice first. A brighter or more different color can help guide your eyes to it."
+        },
+        {
+          "title": "Do not make everything shout",
+          "text": "If every object is equally bright and colorful, it is harder to know where to look. Let a few things be quieter so the main thing can stand out."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What is a focal point?",
+          "options": [
+            "The part you notice first",
+            "The darkest edge of every picture",
+            "A color mixing recipe"
+          ],
+          "answer": "The part you notice first",
+          "feedback": "The focal point is where the viewer's eyes are drawn first."
+        },
+        {
+          "question": "How can you make a main object stand out?",
+          "options": [
+            "Give it a clear color difference from its background",
+            "Make every object exactly as bright",
+            "Hide it behind the busiest pattern"
+          ],
+          "answer": "Give it a clear color difference from its background",
+          "feedback": "A clear difference can help the main object be noticed."
+        },
+        {
+          "question": "If everything is very bright and colorful, what may happen?",
+          "options": [
+            "It may be hard to know where to look",
+            "The picture always becomes clearer",
+            "All colors turn white"
+          ],
+          "answer": "It may be hard to know where to look",
+          "feedback": "Too many strong elements can compete for attention."
+        }
+      ]
+    },
+    {
+      "name": "Quiet or Vivid",
+      "concept": "Saturation",
+      "clues": [
+        {
+          "title": "Vivid and muted",
+          "text": "A color with high saturation looks strong and vivid. A color with low saturation looks softer, duller, or more gray."
+        },
+        {
+          "title": "Choose the strength",
+          "text": "Use vivid colors when you want attention. Muted colors can work well in the background so the main object stands out."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color has high saturation?",
+          "options": [
+            "A very vivid red",
+            "A grayish red",
+            "A nearly gray red"
+          ],
+          "answer": "A very vivid red",
+          "feedback": "High saturation means the color looks vivid."
+        },
+        {
+          "question": "What happens when you lower a color's saturation?",
+          "options": [
+            "It looks more muted",
+            "It must become pure black",
+            "It turns into its opposite color"
+          ],
+          "answer": "It looks more muted",
+          "feedback": "Lower saturation reduces how vivid a color looks."
+        },
+        {
+          "question": "Where can muted colors be useful?",
+          "options": [
+            "In the background behind a main object",
+            "Only on warning signs",
+            "Nowhere in art"
+          ],
+          "answer": "In the background behind a main object",
+          "feedback": "Muted backgrounds can help the main subject stand out."
+        }
+      ]
+    },
+    {
+      "name": "Neutral Reef",
+      "concept": "Neutral colors",
+      "clues": [
+        {
+          "title": "Neutral colors",
+          "text": "Black, white, gray, and many browns are called neutral colors. They often do not feel as bright or colorful as strong reds or blues."
+        },
+        {
+          "title": "Give colors room",
+          "text": "Neutral colors can help bright colors stand out. A gray wall, for example, lets a colorful picture become the focus."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which is a neutral color?",
+          "options": [
+            "Gray",
+            "Bright red",
+            "Bright purple"
+          ],
+          "answer": "Gray",
+          "feedback": "Gray is a common neutral color."
+        },
+        {
+          "question": "Which set is mostly neutral?",
+          "options": [
+            "Black, white, and gray",
+            "Red, orange, and yellow",
+            "Blue, green, and violet"
+          ],
+          "answer": "Black, white, and gray",
+          "feedback": "Black, white, and gray are neutral colors."
+        },
+        {
+          "question": "Why might a designer use a gray background?",
+          "options": [
+            "To help bright objects stand out",
+            "To make every color disappear",
+            "Because gray is always the brightest color"
+          ],
+          "answer": "To help bright objects stand out",
+          "feedback": "Neutral backgrounds can make colorful objects easier to notice."
+        }
+      ]
+    },
+    {
+      "name": "Colors and Feelings",
+      "concept": "Color mood and context",
+      "clues": [
+        {
+          "title": "Colors can suggest a mood",
+          "text": "Many people connect blue with calm or cool feelings and orange with warmth or energy. These are common ideas, not rules for everyone."
+        },
+        {
+          "title": "The surroundings matter",
+          "text": "A color can feel different next to another color or under different light. Think about the whole scene, not one color by itself."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is often used to suggest a calm, cool feeling?",
+          "options": [
+            "Blue",
+            "Hot orange",
+            "Bright scarlet"
+          ],
+          "answer": "Blue",
+          "feedback": "Blue is often used to suggest calm or cool feelings."
+        },
+        {
+          "question": "Which color is often used to suggest warmth or energy?",
+          "options": [
+            "Orange",
+            "Blue-gray",
+            "Icy cyan"
+          ],
+          "answer": "Orange",
+          "feedback": "Orange is often linked with warmth or energy."
+        },
+        {
+          "question": "Can the colors around a color change how it feels?",
+          "options": [
+            "Yes, the surrounding colors and light matter",
+            "No, surroundings never matter",
+            "Only black can change a color"
+          ],
+          "answer": "Yes, the surrounding colors and light matter",
+          "feedback": "The colors and light around something can affect how we see it."
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Relationships",
+      "concept": "Color wheel relationships",
+      "clues": [
+        {
+          "title": "The color wheel",
+          "text": "A color wheel puts color families in a circle. It helps you see which colors are neighbors and which colors are opposite."
+        },
+        {
+          "title": "Two useful relationships",
+          "text": "Neighbor colors can feel harmonious. Opposite colors can make a strong contrast. Both can be useful for different reasons."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What can a color wheel help you see?",
+          "options": [
+            "Which colors are neighbors or opposites",
+            "How heavy a paint tube is",
+            "How long a game lasts"
+          ],
+          "answer": "Which colors are neighbors or opposites",
+          "feedback": "A color wheel shows color relationships."
+        },
+        {
+          "question": "What do neighboring colors often create?",
+          "options": [
+            "A harmonious, connected look",
+            "The strongest contrast every time",
+            "Only gray colors"
+          ],
+          "answer": "A harmonious, connected look",
+          "feedback": "Neighboring colors often feel like they belong together."
+        },
+        {
+          "question": "What do opposite colors often create?",
+          "options": [
+            "Strong contrast",
+            "No visible difference",
+            "Only darkness"
+          ],
+          "answer": "Strong contrast",
+          "feedback": "Opposite colors usually stand out strongly beside each other."
+        }
+      ]
+    }
+  ],
+  "side": [
+    {
+      "name": "Orange Repair",
+      "concept": "Paint mixing",
+      "clues": [
+        {
+          "title": "Mix red and yellow",
+          "text": "Red paint mixed with yellow paint makes orange in the simple artist's color model."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What color do red and yellow paint make?",
+          "options": [
+            "Orange",
+            "Green",
+            "Blue"
+          ],
+          "answer": "Orange",
+          "feedback": "Red and yellow make orange."
+        },
+        {
+          "question": "Which paint would you add if an orange mix looks too yellow?",
+          "options": [
+            "A little red",
+            "More blue",
+            "White until it is black"
+          ],
+          "answer": "A little red",
+          "feedback": "A little red moves the mix toward orange."
+        },
+        {
+          "question": "Is paint mixing the same as mixing screen light?",
+          "options": [
+            "No, they use different color systems",
+            "Yes, they are exactly the same",
+            "Only blue paint works"
+          ],
+          "answer": "No, they use different color systems",
+          "feedback": "Paint and screen light follow different mixing rules."
+        }
+      ]
+    },
+    {
+      "name": "Opposite Compass",
+      "concept": "Complementary colors",
+      "clues": [
+        {
+          "title": "Find the opposite",
+          "text": "Complementary colors sit across from each other on a color wheel. On the traditional artist's wheel, yellow and purple are opposites."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is opposite yellow on the traditional artist's wheel?",
+          "options": [
+            "Purple",
+            "Orange",
+            "Green-blue"
+          ],
+          "answer": "Purple",
+          "feedback": "Purple is opposite yellow on the traditional artist's wheel."
+        },
+        {
+          "question": "What is special about complementary colors?",
+          "options": [
+            "They sit across from each other on the wheel",
+            "They always look the same",
+            "They are always gray"
+          ],
+          "answer": "They sit across from each other on the wheel",
+          "feedback": "Complementary colors are opposite colors on the wheel."
+        },
+        {
+          "question": "What can complementary colors make when placed together?",
+          "options": [
+            "Strong contrast",
+            "A guaranteed shade of gray",
+            "A single new primary color"
+          ],
+          "answer": "Strong contrast",
+          "feedback": "Opposite hues often create strong contrast."
+        }
+      ]
+    },
+    {
+      "name": "Garden Neighbors",
+      "concept": "Analogous colors",
+      "clues": [
+        {
+          "title": "Use color neighbors",
+          "text": "Colors next to each other on the color wheel are called analogous. Red, red-orange, and orange are neighbors."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which set uses neighboring hues?",
+          "options": [
+            "Red, red-orange, and orange",
+            "Red, green, and blue",
+            "Blue, orange, and purple"
+          ],
+          "answer": "Red, red-orange, and orange",
+          "feedback": "Red, red-orange, and orange sit near one another on the wheel."
+        },
+        {
+          "question": "What word means colors next to each other on the wheel?",
+          "options": [
+            "Analogous",
+            "Complementary",
+            "Neutral"
+          ],
+          "answer": "Analogous",
+          "feedback": "Analogous colors are neighbors on the wheel."
+        },
+        {
+          "question": "What feeling can neighboring colors often give?",
+          "options": [
+            "A connected, harmonious look",
+            "Only a warning feeling",
+            "No relationship at all"
+          ],
+          "answer": "A connected, harmonious look",
+          "feedback": "Neighboring hues often make a cohesive palette."
+        }
+      ]
+    },
+    {
+      "name": "Icy Tunnel",
+      "concept": "Warm and cool colors",
+      "clues": [
+        {
+          "title": "Cool colors",
+          "text": "Blue, blue-green, and cyan are often called cool colors. They can remind us of water, shade, or ice."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is often called cool?",
+          "options": [
+            "Blue",
+            "Orange",
+            "Red"
+          ],
+          "answer": "Blue",
+          "feedback": "Blue is often described as cool."
+        },
+        {
+          "question": "Which scene would blue help support?",
+          "options": [
+            "An icy cave",
+            "A blazing sunset",
+            "A candle flame"
+          ],
+          "answer": "An icy cave",
+          "feedback": "Blue often helps an icy scene feel cool."
+        },
+        {
+          "question": "Does cool mean the paint is physically cold?",
+          "options": [
+            "No, it describes the feeling of the color",
+            "Yes, the paint must freeze",
+            "Yes, the color changes room temperature"
+          ],
+          "answer": "No, it describes the feeling of the color",
+          "feedback": "Cool color is a visual feeling, not the paint's actual temperature."
+        }
+      ]
+    },
+    {
+      "name": "Brightness Lab",
+      "concept": "Hue, saturation, and value",
+      "clues": [
+        {
+          "title": "Three ways to describe color",
+          "text": "Hue is the color family. Saturation is how vivid it looks. Value is how light or dark it looks."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which property means how vivid a color looks?",
+          "options": [
+            "Saturation",
+            "Hue",
+            "Value"
+          ],
+          "answer": "Saturation",
+          "feedback": "Saturation describes vividness."
+        },
+        {
+          "question": "Which property means light or dark?",
+          "options": [
+            "Value",
+            "Hue",
+            "Saturation"
+          ],
+          "answer": "Value",
+          "feedback": "Value describes lightness and darkness."
+        },
+        {
+          "question": "Which property means the color family, such as green?",
+          "options": [
+            "Hue",
+            "Value",
+            "Saturation"
+          ],
+          "answer": "Hue",
+          "feedback": "Hue names the color family."
+        }
+      ]
+    },
+    {
+      "name": "Lighthouse Contrast",
+      "concept": "Value contrast",
+      "clues": [
+        {
+          "title": "Light beside dark",
+          "text": "A light color beside a dark color creates value contrast. Strong value contrast can make signs and shapes easier to see."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which pair has strong value contrast?",
+          "options": [
+            "White and black",
+            "Two similar grays",
+            "Two similar pale blues"
+          ],
+          "answer": "White and black",
+          "feedback": "White and black have a big light-dark difference."
+        },
+        {
+          "question": "What does value mean?",
+          "options": [
+            "How light or dark a color looks",
+            "The color name only",
+            "How many paint brushes you own"
+          ],
+          "answer": "How light or dark a color looks",
+          "feedback": "Value is lightness or darkness."
+        },
+        {
+          "question": "Why use contrast on a sign?",
+          "options": [
+            "To make the sign easier to read",
+            "To hide the words",
+            "To make every color identical"
+          ],
+          "answer": "To make the sign easier to read",
+          "feedback": "Strong light-dark contrast helps text stand out."
+        }
+      ]
+    },
+    {
+      "name": "Pearl Tint",
+      "concept": "Tints",
+      "clues": [
+        {
+          "title": "Add white for a tint",
+          "text": "A tint is a color mixed with white, making it lighter. Red plus white can make pink."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What do you add to make a tint?",
+          "options": [
+            "White",
+            "Black",
+            "Blue only"
+          ],
+          "answer": "White",
+          "feedback": "A tint is made by adding white."
+        },
+        {
+          "question": "Which is a tint of red?",
+          "options": [
+            "Pink",
+            "Dark maroon made with black",
+            "Green"
+          ],
+          "answer": "Pink",
+          "feedback": "Pink is a lighter tint of red."
+        },
+        {
+          "question": "Does a tint become lighter or darker?",
+          "options": [
+            "Lighter",
+            "Darker",
+            "It must turn black"
+          ],
+          "answer": "Lighter",
+          "feedback": "Adding white makes a color lighter."
+        }
+      ]
+    },
+    {
+      "name": "Shadow Shade",
+      "concept": "Shades",
+      "clues": [
+        {
+          "title": "Add black for a shade",
+          "text": "A shade is made by mixing black into a color. It makes that color darker."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What do you add to make a shade?",
+          "options": [
+            "Black",
+            "White",
+            "Yellow only"
+          ],
+          "answer": "Black",
+          "feedback": "A shade is made by adding black."
+        },
+        {
+          "question": "What happens to a color when you add black?",
+          "options": [
+            "It becomes darker",
+            "It always becomes lighter",
+            "It must turn into white"
+          ],
+          "answer": "It becomes darker",
+          "feedback": "Black makes the color darker."
+        },
+        {
+          "question": "Which is a shade of blue?",
+          "options": [
+            "Dark navy blue",
+            "Pale sky blue made with white",
+            "Bright yellow"
+          ],
+          "answer": "Dark navy blue",
+          "feedback": "Dark navy is a darker version of blue."
+        }
+      ]
+    },
+    {
+      "name": "Screen Reef",
+      "concept": "RGB screen light",
+      "clues": [
+        {
+          "title": "Red, green, and blue light",
+          "text": "Screens use red, green, and blue light to create colors. This is called RGB."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What does RGB stand for?",
+          "options": [
+            "Red, green, blue",
+            "Red, gold, brown",
+            "Rose, gray, black"
+          ],
+          "answer": "Red, green, blue",
+          "feedback": "RGB stands for red, green, and blue."
+        },
+        {
+          "question": "Which uses RGB light?",
+          "options": [
+            "A phone screen",
+            "A tub of blue paint",
+            "A paper notebook"
+          ],
+          "answer": "A phone screen",
+          "feedback": "Phone and computer screens use RGB light."
+        },
+        {
+          "question": "Red and green light together make what color on a screen?",
+          "options": [
+            "Yellow",
+            "Purple",
+            "Brown"
+          ],
+          "answer": "Yellow",
+          "feedback": "Red and green light combine to look yellow."
+        }
+      ]
+    },
+    {
+      "name": "Single-Hue Room",
+      "concept": "Monochromatic palettes",
+      "clues": [
+        {
+          "title": "One hue, many versions",
+          "text": "A monochromatic palette uses one hue, like blue, with lighter and darker versions of that same hue."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What does monochromatic mean?",
+          "options": [
+            "Using one hue in different versions",
+            "Using only opposite colors",
+            "Using no colors"
+          ],
+          "answer": "Using one hue in different versions",
+          "feedback": "Monochromatic means one hue with variations."
+        },
+        {
+          "question": "Which palette is monochromatic?",
+          "options": [
+            "Light blue, blue, dark blue",
+            "Blue, orange, yellow",
+            "Red, green, purple"
+          ],
+          "answer": "Light blue, blue, dark blue",
+          "feedback": "The first set uses different versions of blue."
+        },
+        {
+          "question": "How can you make a one-color picture interesting?",
+          "options": [
+            "Use light and dark versions",
+            "Make every part identical",
+            "Remove every difference"
+          ],
+          "answer": "Use light and dark versions",
+          "feedback": "Light and dark versions make the picture easier to read."
+        }
+      ]
+    },
+    {
+      "name": "Focus Finder",
+      "concept": "Focal points",
+      "clues": [
+        {
+          "title": "Help the main thing stand out",
+          "text": "A focal point is the part you notice first. A different or brighter color can help draw your eyes to it."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What is a focal point?",
+          "options": [
+            "The part you notice first",
+            "The page number",
+            "A type of paint"
+          ],
+          "answer": "The part you notice first",
+          "feedback": "A focal point is where your eyes go first."
+        },
+        {
+          "question": "How can a game show which item matters most?",
+          "options": [
+            "Make that item stand out from its surroundings",
+            "Make every item equally bright",
+            "Hide every item"
+          ],
+          "answer": "Make that item stand out from its surroundings",
+          "feedback": "A clear difference helps guide attention."
+        },
+        {
+          "question": "What can happen if everything is equally loud in color?",
+          "options": [
+            "It is harder to know where to look",
+            "The main object is always clear",
+            "The colors vanish"
+          ],
+          "answer": "It is harder to know where to look",
+          "feedback": "When everything competes, the main subject can be hard to spot."
+        }
+      ]
+    },
+    {
+      "name": "Mix a Green",
+      "concept": "Secondary paint colors",
+      "clues": [
+        {
+          "title": "Make green with paint",
+          "text": "In the simple artist's paint model, yellow paint mixed with blue paint makes green."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which two paint colors make green?",
+          "options": [
+            "Yellow and blue",
+            "Red and yellow",
+            "Blue and red"
+          ],
+          "answer": "Yellow and blue",
+          "feedback": "Yellow and blue make green in the simple paint model."
+        },
+        {
+          "question": "Is green a primary or secondary color in the simple RYB paint model?",
+          "options": [
+            "Secondary",
+            "Primary",
+            "Neutral"
+          ],
+          "answer": "Secondary",
+          "feedback": "Green is made by mixing two primary paints, so it is secondary."
+        },
+        {
+          "question": "Which pair makes orange?",
+          "options": [
+            "Red and yellow",
+            "Yellow and blue",
+            "Blue and red"
+          ],
+          "answer": "Red and yellow",
+          "feedback": "Red and yellow make orange."
+        }
+      ]
+    },
+    {
+      "name": "Quiet the Color",
+      "concept": "Saturation",
+      "clues": [
+        {
+          "title": "Make a color softer",
+          "text": "Lower saturation makes a color less vivid and more muted. High saturation makes it look strong and bright in color."
+        }
+      ],
+      "stages": [
+        {
+          "question": "What does low saturation look like?",
+          "options": [
+            "Muted or grayish",
+            "Always pure white",
+            "Always black"
+          ],
+          "answer": "Muted or grayish",
+          "feedback": "Low saturation makes a color look less vivid."
+        },
+        {
+          "question": "What does high saturation look like?",
+          "options": [
+            "Vivid and strong",
+            "Gray and muted",
+            "Invisible"
+          ],
+          "answer": "Vivid and strong",
+          "feedback": "High saturation means the color looks vivid."
+        },
+        {
+          "question": "Where can a less saturated color work well?",
+          "options": [
+            "In a calm background",
+            "Only in the sun",
+            "Nowhere"
+          ],
+          "answer": "In a calm background",
+          "feedback": "Muted colors can keep a background from competing with the main object."
+        }
+      ]
+    },
+    {
+      "name": "Neutral Cave",
+      "concept": "Neutral colors",
+      "clues": [
+        {
+          "title": "Neutral colors",
+          "text": "Gray, black, and white are common neutral colors. They often work well behind stronger, brighter colors."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which is a neutral color?",
+          "options": [
+            "Gray",
+            "Bright orange",
+            "Bright turquoise"
+          ],
+          "answer": "Gray",
+          "feedback": "Gray is a neutral color."
+        },
+        {
+          "question": "Which group is neutral?",
+          "options": [
+            "Black, white, and gray",
+            "Red, yellow, and orange",
+            "Blue, green, and violet"
+          ],
+          "answer": "Black, white, and gray",
+          "feedback": "Black, white, and gray are neutral colors."
+        },
+        {
+          "question": "What can a gray background help do?",
+          "options": [
+            "Let a bright picture stand out",
+            "Make every color brighter by itself",
+            "Turn blue into yellow"
+          ],
+          "answer": "Let a bright picture stand out",
+          "feedback": "Neutral backgrounds can help colorful things stand out."
+        }
+      ]
+    },
+    {
+      "name": "Mood Board",
+      "concept": "Color mood",
+      "clues": [
+        {
+          "title": "Colors can suggest feelings",
+          "text": "Blue can suggest calm or cool feelings. Orange can suggest warmth or energy. People can feel differently, so these are common ideas rather than strict rules."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which color is often used to suggest calm?",
+          "options": [
+            "Blue",
+            "Bright orange",
+            "Red-orange"
+          ],
+          "answer": "Blue",
+          "feedback": "Blue is often used for calm scenes."
+        },
+        {
+          "question": "Which color is often used to suggest warmth?",
+          "options": [
+            "Orange",
+            "Icy blue",
+            "Blue-green"
+          ],
+          "answer": "Orange",
+          "feedback": "Orange is often linked to warmth."
+        },
+        {
+          "question": "Are color feelings exactly the same for everyone?",
+          "options": [
+            "No, people and cultures can see colors differently",
+            "Yes, everyone always feels the same",
+            "Only children can feel color mood"
+          ],
+          "answer": "No, people and cultures can see colors differently",
+          "feedback": "Color mood can depend on the person, culture, and context."
+        }
+      ]
+    },
+    {
+      "name": "Sunset Neighbors",
+      "concept": "Analogous warm colors",
+      "clues": [
+        {
+          "title": "Neighboring sunset colors",
+          "text": "Yellow, yellow-orange, and orange sit next to each other on the color wheel. These neighboring hues can make a smooth sunset palette."
+        }
+      ],
+      "stages": [
+        {
+          "question": "Which set fits a neighboring-color sunset palette?",
+          "options": [
+            "Yellow, yellow-orange, orange",
+            "Yellow, blue, purple",
+            "Red, green, blue"
+          ],
+          "answer": "Yellow, yellow-orange, orange",
+          "feedback": "Yellow, yellow-orange, and orange are neighbors on the wheel."
+        },
+        {
+          "question": "What are neighboring colors called?",
+          "options": [
+            "Analogous colors",
+            "Complementary colors",
+            "Neutral colors"
+          ],
+          "answer": "Analogous colors",
+          "feedback": "Analogous colors sit next to each other on the wheel."
+        },
+        {
+          "question": "Why might these colors work for a sunset?",
+          "options": [
+            "They are nearby warm colors",
+            "They are all opposite each other",
+            "They contain no hue"
+          ],
+          "answer": "They are nearby warm colors",
+          "feedback": "Neighboring warm hues can make a sunset feel connected."
+        }
+      ]
+    }
+  ]
+}

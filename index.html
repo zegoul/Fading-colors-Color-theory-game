@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#061d35">
+<title>Fading Colors — Color Theory Adventure</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="app">
+  <!-- The supplied title-screen artwork is intentionally used as the full-screen menu. -->
+  <section id="home-screen" class="home-screen" aria-label="Fading Colors main menu">
+    <img class="home-art" src="assets/home-screen.jpeg" alt="Fading Colors underwater title screen" draggable="false">
+    <div class="home-logo-glow" aria-hidden="true"></div>
+    <div class="home-sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <button id="home-play" class="menu-hitbox menu-play" aria-label="Start game"><span class="sr-only">PLAY</span></button>
+    <button id="home-quit" class="menu-hitbox menu-quit" aria-label="Quit game"><span class="sr-only">QUIT</span></button>
+    <div id="quit-message" class="quit-message" role="status" hidden>Browsers may block closing a tab that was opened manually. Press <strong>Ctrl + W</strong> to close this tab.</div>
+  </section>
+
+  <section id="instructions" class="screen-shade instructions-shade" hidden aria-modal="true" role="dialog" aria-labelledby="instructions-title">
+    <div class="instructions-card hud-panel">
+      <div class="briefing-aura" aria-hidden="true"></div>
+      <div class="briefing-topline"><span class="lesson-chip">AQUARIUM FIELD GUIDE</span><span class="briefing-dive">DIVE BRIEFING · 01</span></div>
+      <h2 id="instructions-title">Before you dive</h2>
+      <p class="briefing-lead">Keep the aquarium alive by reading carefully, planning ahead, and protecting every room's color.</p>
+      <ol class="instruction-list">
+        <li><span class="instruction-number">01</span><span><strong>Protect the colors.</strong><small>Don't let the color of the rooms fade.</small></span></li>
+        <li><span class="instruction-number">02</span><span><strong>Read the clues.</strong><small>Field notes are spread across the map. Read them in place to unlock quests; press E again to close a note.</small></span></li>
+        <li><span class="instruction-number">03</span><span><strong>Complete each main quest.</strong><small>Main quests are located on the pearl tables in Rooms A, B, and C.</small></span></li>
+        <li><span class="instruction-number">04</span><span><strong>Choose carefully.</strong><small>Failing a main quest locks that room and makes every other active room fade faster.</small></span></li>
+        <li><span class="instruction-number">05</span><span><strong>Try side quests.</strong><small>Optional S.T tasks can reward you with a 12-second pause for one room. Finish side quests before the final main task.</small></span></li>
+      </ol>
+      <div class="control-guide" aria-label="Game controls">
+        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>Move</span></div>
+        <div><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd><span>Move</span></div>
+        <div><kbd>E</kbd><span>Read / interact / close note</span></div>
+        <div><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd><span>Choose answer</span></div>
+        <div><kbd>ENTER</kbd><span>Continue quest stage</span></div>
+        <div><kbd>F</kbd><span>Shimmer clues</span></div>
+        <div><kbd>ESC</kbd><span>Close quest terminal</span></div>
+      </div>
+      <div class="briefing-actions"><span class="briefing-footnote">No mouse is needed once the dive begins.</span><button id="start-dive" class="dive-button">START DIVE <span aria-hidden="true">→</span></button></div>
+    </div>
+  </section>
+
+  <section id="game-screen" class="game-window" aria-label="Fading Colors game" hidden>
+    <canvas id="world" width="1312" height="1199" tabindex="0" aria-label="Explore with WASD or arrow keys. Press E near a clue or quest icon to interact. Use number keys to answer. Press F to shimmer clues."></canvas>
+
+    <header class="hud-header">
+      <div class="brand-block">
+        <div class="game-mark" aria-hidden="true">FC</div>
+        <div>
+          <div class="eyebrow">AQUARIUM ARCHIVE</div>
+          <h1>Fading Colors</h1>
+          <div class="room-label" id="room-label">LOCATING ROOM…</div>
+        </div>
+      </div>
+      <div class="room-timers" aria-label="Room color timers">
+        <section class="room-timer hud-panel" data-room="A"><div class="timer-top"><strong>ROOM A</strong><span id="state-A">FULL COLOR</span></div><div class="timer-name">PEARL SANCTUM <span id="timer-A">04:00</span></div><div class="timertrack"><i id="timebar-A"></i></div></section>
+        <section class="room-timer hud-panel" data-room="B"><div class="timer-top"><strong>ROOM B</strong><span id="state-B">FULL COLOR</span></div><div class="timer-name">AMBER GROTTO <span id="timer-B">04:00</span></div><div class="timertrack"><i id="timebar-B"></i></div></section>
+        <section class="room-timer hud-panel" data-room="C"><div class="timer-top"><strong>ROOM C</strong><span id="state-C">FULL COLOR</span></div><div class="timer-name">VIOLET GROTTO <span id="timer-C">04:00</span></div><div class="timertrack"><i id="timebar-C"></i></div></section>
+      </div>
+      <div class="run-progress hud-panel"><span>QUESTS</span><strong id="progress">0 / 6</strong><small id="hint-count">0 / 9 NOTES READ</small></div>
+    </header>
+
+    <section id="hint-window" class="floating-card hint-window hud-panel" aria-live="polite" aria-modal="true" role="dialog" aria-labelledby="lesson-title" hidden>
+      <div class="floating-topline"><span class="lesson-chip"><img src="assets/icon-hint.png" alt=""/> FIELD NOTE · PRESS E TO CLOSE</span><span class="note-pulse" aria-hidden="true">✧</span></div>
+      <div class="eyebrow" id="lesson-kicker">COLOR THEORY</div>
+      <h2 id="lesson-title">Clue discovered</h2>
+      <p id="lesson-body"></p>
+      <div class="hint-read-note"><span class="status-dot"></span> This note stays in the world. Leave it and return whenever you need to read it again.</div>
+    </section>
+
+    <section id="pause-choice" class="floating-card pause-window hud-panel" aria-modal="true" role="dialog" aria-labelledby="pause-title" hidden>
+      <div class="floating-topline"><span class="lesson-chip">SIDE QUEST REWARD</span><span class="reward-glyph">❄</span></div>
+      <h2 id="pause-title">Choose a room to preserve</h2>
+      <p>Successful side task! Pause one room's fading clock for <strong>12 seconds</strong>. Use <kbd>1</kbd>, <kbd>2</kbd>, or <kbd>3</kbd> for Rooms A, B, and C.</p>
+      <div class="room-choice-buttons"><button data-pause-room="A"><strong>1 · ROOM A</strong><span id="choice-A">04:00</span></button><button data-pause-room="B"><strong>2 · ROOM B</strong><span id="choice-B">04:00</span></button><button data-pause-room="C"><strong>3 · ROOM C</strong><span id="choice-C">04:00</span></button></div>
+    </section>
+
+    <div id="canvas-prompt" class="canvas-prompt" role="status" aria-live="polite">WASD / ARROWS · EXPLORE</div>
+    <div id="notice" class="sr-only" role="status" aria-live="polite"></div>
+    <div id="game-toast" class="game-toast danger" role="alert" aria-live="assertive" hidden></div>
+
+    <section id="task" class="task-overlay" hidden aria-modal="true" role="dialog" aria-labelledby="task-title">
+      <div class="task-modal hud-panel">
+        <div class="modal-topline"><span class="lesson-chip" id="task-step">MAIN QUEST · STAGE 1 OF 3</span><span class="key-help">1 / 2 / 3 · answer&nbsp; • &nbsp;ENTER · next</span></div>
+        <div class="eyebrow">ROOM TERMINAL</div><h2 id="task-title">Quest</h2>
+        <p id="task-story" class="task-story"></p><div class="divider"></div>
+        <p id="task-question" class="question"></p><div id="options" class="answers"></div>
+        <p id="task-feedback" class="task-feedback" role="status" aria-live="polite"></p>
+        <div class="modal-actions"><span class="modal-tip">Apply the clues you studied.</span><span id="task-continue" class="modal-tip" hidden>CORRECT · PRESS ENTER TO CONTINUE</span><span class="modal-tip">ESC · close terminal</span></div>
+      </div>
+    </section>
+
+    <section id="end-screen" class="end-screen" hidden aria-modal="true" role="dialog" aria-labelledby="ending-title">
+      <div class="end-card hud-panel">
+        <div class="ending-emblem" aria-hidden="true"><span id="ending-symbol">✧</span></div>
+        <div class="eyebrow" id="ending-kicker">AQUARIUM RUN COMPLETE</div>
+        <h2 id="ending-title">The colors remember</h2>
+        <p id="ending-message" class="ending-message"></p>
+        <div class="score-grid">
+          <div><span>ROOMS SAVED</span><strong id="score-rooms">0 / 3</strong></div>
+          <div><span>MAIN QUESTS</span><strong id="score-main">0 / 3</strong></div>
+          <div><span>SIDE QUESTS</span><strong id="score-side">0 / 3</strong></div>
+          <div><span>CLUES READ</span><strong id="score-clues">0 / 9</strong></div>
+        </div>
+        <p class="ending-placeholder">ENDING SCENE PLACEHOLDER · MEMES / VIDEO LATER · ENTER: PLAY AGAIN · ESC: MAIN MENU</p>
+        <div class="ending-actions"><button id="end-menu" class="secondary-button">MAIN MENU</button><button id="end-replay" class="dive-button">PLAY AGAIN <span aria-hidden="true">↻</span></button></div>
+      </div>
+    </section>
+  </section>
+</main>
+<script type="module" src="js/game.js"></script>
+</body>
+</html>
